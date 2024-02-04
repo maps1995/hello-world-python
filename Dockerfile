@@ -1,4 +1,4 @@
-FROM registry.docker.ir/python:3-alpine
+FROM docker.io/python:3-alpine
 WORKDIR /service
 COPY requirements.txt .
 RUN pip install -r requirements.txt
